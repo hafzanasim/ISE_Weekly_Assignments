@@ -1,5 +1,6 @@
 import unittest
-from widget_machine import get_machine
+from widget_machine import get_machine 
+# assumes widget_machine is a module in a Python file named widget_machine.py and get_machine is a function defined in that file that returns an instance of the widget factory machine.
 
 class TestWidgetMachine(unittest.TestCase):
     
